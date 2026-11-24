@@ -1,0 +1,30 @@
+# Python
+__pycache__/
+*.py[cod]
+*.egg-info/
+.venv/
+build/
+dist/
+
+# Tooling caches
+.pytest_cache/
+.ruff_cache/
+.mypy_cache/
+
+# Run outputs: kept on the RunPod volume or the Hugging Face Hub, never in git
+outputs/
+runs/
+*.mcap
+*.mp4
+*.ckpt
+*.pt
+*.safetensors
+
+# MuJoCo
+MUJOCO_LOG.TXT
+
+# Editors and OS
+.vscode/
+.idea/
+.DS_Store
+Thumbs.db
